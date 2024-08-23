@@ -4,7 +4,8 @@
             "id": 1,
             "name": "Alejandro",
             "email": "alejandro@example.com",
-            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_y37QQQpsTo0Bj7cEuE_KmpSXvbzM2RTYA&s",    
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_y37QQQpsTo0Bj7cEuE_KmpSXvbzM2RTYA&s",   
+        }
     ],
     "friends": [
                 {
