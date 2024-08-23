@@ -4,86 +4,85 @@
             "id": 1,
             "name": "Alejandro",
             "email": "alejandro@example.com",
-            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_y37QQQpsTo0Bj7cEuE_KmpSXvbzM2RTYA&s",   
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_y37QQQpsTo0Bj7cEuE_KmpSXvbzM2RTYA&s"
         }
     ],
     "friends": [
-                {
-                    "userId": 1,
-                    "friendId": 2,
-                    "friendName": "María",
-                    "friendEmail": "maria@example.com",
-                    "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuEsePZVvPx75VcLkUWwojPHUOfN3aZ4mXFg&s",
-                    "status": "accepted"
-                },
-                {
-                    "userId": 1,
-                    "friendId": 3,
-                    "friendName": "Carlos",
-                    "friendEmail": "carlos@example.com",
-                    "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVuBDepXpQiG277OPGfsor__C5ktlMkTfbg&s",
-                    "status": "accepted"
-                },
-                {
-                    "userId": 1,
-                    "friendId": 4,
-                    "friendName": "Ana",
-                    "friendEmail": "ana@example.com",
-                    "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVKpkkOyD3T5ABULBihOhWv1YuC1lgUYrJDw&s",
-                    "status": "accepted"
-                },
-                {
-                    "userId": 1,
-                    "friendId": 5,
-                    "friendName": "David",
-                    "friendEmail": "david@example.com",
-                    "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRPxBWcqubfuqiVTgRwsiRYcg0WZHPPpB-FQ&s",
-                    "status": "accepted"
-                }
-            ],
+        {
+            "userId": 1,
+            "friendId": 2,
+            "friendName": "María",
+            "friendEmail": "maria@example.com",
+            "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuEsePZVvPx75VcLkUWwojPHUOfN3aZ4mXFg&s",
+            "status": "accepted"
+        },
+        {
+            "userId": 1,
+            "friendId": 3,
+            "friendName": "Carlos",
+            "friendEmail": "carlos@example.com",
+            "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVuBDepXpQiG277OPGfsor__C5ktlMkTfbg&s",
+            "status": "accepted"
+        },
+        {
+            "userId": 1,
+            "friendId": 4,
+            "friendName": "Ana",
+            "friendEmail": "ana@example.com",
+            "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVKpkkOyD3T5ABULBihOhWv1YuC1lgUYrJDw&s",
+            "status": "accepted"
+        },
+        {
+            "userId": 1,
+            "friendId": 5,
+            "friendName": "David",
+            "friendEmail": "david@example.com",
+            "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRPxBWcqubfuqiVTgRwsiRYcg0WZHPPpB-FQ&s",
+            "status": "accepted"
+        }
+    ],
     "chats": [
+        {
+            "id": 1,
+            "participants": [
+                1,
+                2
+            ],
+            "messages": [
                 {
-                    "id": 1,
-                    "participants": [
-                        1,
-                        2
-                    ],
-                    "messages": [
-                        {
-                            "messageId": 1,
-                            "senderId": 1,
-                            "content": "¡Hola María! ¿Cómo estás?",
-                            "timestamp": "2024-08-21T10:15:00Z"
-                        },
-                        {
-                            "messageId": 2,
-                            "senderId": 2,
-                            "content": "¡Hola Alejandro! Estoy bien, ¿y tú?",
-                            "timestamp": "2024-08-21T10:16:00Z"
-                        }
-                    ]
+                    "messageId": 1,
+                    "senderId": 1,
+                    "content": "¡Hola María! ¿Cómo estás?",
+                    "timestamp": "2024-08-21T10:15:00Z"
                 },
                 {
-                    "id": 2,
-                    "participants": [
-                        1,
-                        3
-                    ],
-                    "messages": [
-                        {
-                            "messageId": 3,
-                            "senderId": 1,
-                            "content": "Hola Carlos, ¿qué tal?",
-                            "timestamp": "2024-08-21T11:00:00Z"
-                        },
-                        {
-                            "messageId": 4,
-                            "senderId": 3,
-                            "content": "Todo bien, gracias. ¿Y tú?",
-                            "timestamp": "2024-08-21T11:01:00Z"
-                        }
-                    ]
+                    "messageId": 2,
+                    "senderId": 2,
+                    "content": "¡Hola Alejandro! Estoy bien, ¿y tú?",
+                    "timestamp": "2024-08-21T10:16:00Z"
                 }
             ]
-
+        },
+        {
+            "id": 2,
+            "participants": [
+                1,
+                3
+            ],
+            "messages": [
+                {
+                    "messageId": 3,
+                    "senderId": 1,
+                    "content": "Hola Carlos, ¿qué tal?",
+                    "timestamp": "2024-08-21T11:00:00Z"
+                },
+                {
+                    "messageId": 4,
+                    "senderId": 3,
+                    "content": "Todo bien, gracias. ¿Y tú?",
+                    "timestamp": "2024-08-21T11:01:00Z"
+                }
+            ]
+        }
+    ]
 }
