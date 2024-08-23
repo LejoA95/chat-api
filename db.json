@@ -5,7 +5,7 @@
             "name": "Alejandro",
             "email": "alejandro@example.com",
             "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_y37QQQpsTo0Bj7cEuE_KmpSXvbzM2RTYA&s",
-            "friends": {
+            "friends": [
                 {
                     "userId": 1,
                     "friendId": 2,
@@ -38,7 +38,7 @@
                     "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRPxBWcqubfuqiVTgRwsiRYcg0WZHPPpB-FQ&s",
                     "status": "accepted"
                 }
-        },
+            ],
             "chats": [
                 {
                     "id": 1,
