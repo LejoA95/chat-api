@@ -4,8 +4,9 @@
             "id": 1,
             "name": "Alejandro",
             "email": "alejandro@example.com",
-            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_y37QQQpsTo0Bj7cEuE_KmpSXvbzM2RTYA&s",
-            "friends": [
+            "profilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_y37QQQpsTo0Bj7cEuE_KmpSXvbzM2RTYA&s",    
+    ],
+    "friends": [
                 {
                     "userId": 1,
                     "friendId": 2,
@@ -39,7 +40,7 @@
                     "status": "accepted"
                 }
             ],
-            "chats": [
+    "chats": [
                 {
                     "id": 1,
                     "participants": [
@@ -83,6 +84,5 @@
                     ]
                 }
             ]
-        }
-    ]
+        },
 }
