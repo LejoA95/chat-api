@@ -44,6 +44,9 @@
     "chats": [
         {
             "id": 1,
+            "friendName": "María",
+            "friendEmail": "maria@example.com",
+            "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuEsePZVvPx75VcLkUWwojPHUOfN3aZ4mXFg&s",
             "participants": [
                 1,
                 2
@@ -65,6 +68,9 @@
         },
         {
             "id": 2,
+            "friendName": "Carlos",
+            "friendEmail": "carlos@example.com",
+            "friendProfilePicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVuBDepXpQiG277OPGfsor__C5ktlMkTfbg&s",
             "participants": [
                 1,
                 3
